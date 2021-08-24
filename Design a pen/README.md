@@ -22,3 +22,33 @@
 4. Ball Pen has a refile, Ink pen is empty.
 5. **Future scope** like sketchpen and marker.
 
+&nbsp;
+---	
+
+&nbsp;
+
+> UML Diagram
+
+1. ER and Class Diagram draw together
+
+* Pen [Entity]
+    1. Ball Pen
+        1. Refile
+    2. Ink Pen
+        1. Tube
+
+_They will have a 'write' interface as in future chalk can also get added_
+
+* Nib [Attribute as not complex]
+
+
+* Body [Entity]
+    * Material
+    * Color
+
+
+* Ink [Entity]
+    1. Color
+
+__Nib,Body,Ink are Entity but color of ink for example is a attribute as they are not that complex if they are very
+complex like ink can have different property then they are entity by itself__
